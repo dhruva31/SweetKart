@@ -4,11 +4,9 @@ import java.util.List;
 
 import com.pramati.sk.dto.SweetBasic;
 import com.pramati.sk.dto.SweetDetail;
-import com.pramati.sk.dto.VendorBasic;
-import com.pramati.sk.dto.VendorDetail;
 
-public class SweetKartDao {
-	
+public class SweetDao {
+
 	/*private JDBCTemplate jdbcTemplate;
 
 	public JDBCTemplate getJdbcTemplate() {
@@ -19,7 +17,16 @@ public class SweetKartDao {
 		this.jdbcTemplate = jdbcTemplate;
 	}*/
 	
-
-
+	public SweetDetail retrieveSweetDetails(int sweetId){
+		SweetDetail sweetDetail = null;
+		
+		return sweetDetail;
+	}
+	
+	public List<SweetBasic> getAllSweets(){
+		List<SweetBasic> sweetList = null;
+		
+		return sweetList;
+	}
+	
 }
-
